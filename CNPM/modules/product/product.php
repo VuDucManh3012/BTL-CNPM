@@ -50,7 +50,7 @@
                         </div> <!-- rating-wrap.// -->
 
                         <div class="mb-3">
-                            <var class="price h4"><?php echo $row['prd_price']?></var>
+                            <var class="price h4"><?php echo number_format($row['prd_price'])?></var>
                             <span class="text-muted">VNĐ</span>
                         </div> <!-- price-detail-wrap .// -->
 
