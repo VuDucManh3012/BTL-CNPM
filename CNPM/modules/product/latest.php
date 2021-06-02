@@ -11,7 +11,7 @@
             <span class="badge badge-danger"> NEW </span>
                 <a href="index.php?page_layout=product&&prd_id=<?php echo $row['prd_id']; ?>"><img src="admin/images/<?php echo $row['prd_image']; ?>" width="150" height="200"></a>
                 <h4><a href="index.php?page_layout=product&&prd_id=<?php echo $row['prd_id']; ?>"><?php echo $row['prd_name']; ?></a></h4>
-                <p>Giá bán: <span><?php echo $row['prd_price']; ?>đ</span></p>
+                <p>Giá bán: <span><?php echo number_format($row['prd_price']); ?> đ</span></p>
             </div>
         </div>
         
